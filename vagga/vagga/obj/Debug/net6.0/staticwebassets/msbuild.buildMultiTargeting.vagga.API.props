@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\vagga.API.props" />
+  <Import Project="..\build\Vagga.API.props" />
 </Project>

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vagga.API", "vagga\vagga.API.csproj", "{F22030DC-6081-437B-939E-7A72A4E0085E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.API", "vagga\Vagga.API.csproj", "{F22030DC-6081-437B-939E-7A72A4E0085E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.Domain", "vagga.Domain\Vagga.Domain.csproj", "{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.Infrastructure", "Vagga.Infrastructure\Vagga.Infrastructure.csproj", "{151D291D-A56C-46C8-AF18-16F3F1B01AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F22030DC-6081-437B-939E-7A72A4E0085E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22030DC-6081-437B-939E-7A72A4E0085E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22030DC-6081-437B-939E-7A72A4E0085E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151D291D-A56C-46C8-AF18-16F3F1B01AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151D291D-A56C-46C8-AF18-16F3F1B01AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151D291D-A56C-46C8-AF18-16F3F1B01AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151D291D-A56C-46C8-AF18-16F3F1B01AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

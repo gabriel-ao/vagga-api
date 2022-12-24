@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\vagga.API.props" />
+  <Import Project="..\buildMultiTargeting\Vagga.API.props" />
 </Project>

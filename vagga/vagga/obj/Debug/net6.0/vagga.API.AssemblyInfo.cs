@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("vagga.API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vagga.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("vagga.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("vagga.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vagga.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Vagga.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

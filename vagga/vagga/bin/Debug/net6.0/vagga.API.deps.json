@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "vagga.API/1.0.0": {
+      "Vagga.API/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "vagga.API.dll": {}
+          "Vagga.API.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -64,7 +64,7 @@
     }
   },
   "libraries": {
-    "vagga.API/1.0.0": {
+    "Vagga.API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
