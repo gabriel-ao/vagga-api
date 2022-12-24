@@ -1,4 +1,4 @@
-namespace vagga
+﻿namespace Vagga.Domain.Models.Output
 {
     public class WeatherForecast
     {

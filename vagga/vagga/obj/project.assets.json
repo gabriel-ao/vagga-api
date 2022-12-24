@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Vagga.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Vagga.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vagga.Domain.dll": {}
+        }
       }
     }
   },
@@ -216,11 +226,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Vagga.Domain/1.0.0": {
+      "type": "project",
+      "path": "../vagga.Domain/Vagga.Domain.csproj",
+      "msbuildProject": "../vagga.Domain/Vagga.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "Vagga.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -230,9 +246,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "R:\\documentos\\github\\vagga-api\\vagga\\vagga\\vagga.API.csproj",
-      "projectName": "vagga.API",
-      "projectPath": "R:\\documentos\\github\\vagga-api\\vagga\\vagga\\vagga.API.csproj",
+      "projectUniqueName": "R:\\documentos\\github\\vagga-api\\vagga\\vagga\\Vagga.API.csproj",
+      "projectName": "Vagga.API",
+      "projectPath": "R:\\documentos\\github\\vagga-api\\vagga\\vagga\\Vagga.API.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "R:\\documentos\\github\\vagga-api\\vagga\\vagga\\obj\\",
       "projectStyle": "PackageReference",
@@ -255,7 +271,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "R:\\documentos\\github\\vagga-api\\vagga\\vagga.Domain\\Vagga.Domain.csproj": {
+              "projectPath": "R:\\documentos\\github\\vagga-api\\vagga\\vagga.Domain\\Vagga.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

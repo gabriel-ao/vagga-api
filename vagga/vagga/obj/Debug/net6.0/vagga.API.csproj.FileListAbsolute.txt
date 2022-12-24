@@ -30,3 +30,8 @@ R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\refint\vagga.API.dll
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\vagga.API.pdb
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\vagga.API.genruntimeconfig.cache
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\ref\vagga.API.dll
+R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.deps.json
+R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.runtimeconfig.json
+R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.exe
+R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.dll
+R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.pdb

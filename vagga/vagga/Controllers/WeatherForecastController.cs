@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Vagga.Domain.Models.Output;
 
 namespace vagga.Controllers
 {

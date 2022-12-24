@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.API", "vagga\Vagga.API.csproj", "{F22030DC-6081-437B-939E-7A72A4E0085E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{151D291D-A56C-46C8-AF18-16F3F1B01AAB} = {151D291D-A56C-46C8-AF18-16F3F1B01AAB}
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771} = {2EB9A0B3-9086-4A34-87AB-1AFF25B10771}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.Domain", "vagga.Domain\Vagga.Domain.csproj", "{2EB9A0B3-9086-4A34-87AB-1AFF25B10771}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vagga.Infrastructure", "Vagga.Infrastructure\Vagga.Infrastructure.csproj", "{151D291D-A56C-46C8-AF18-16F3F1B01AAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EB9A0B3-9086-4A34-87AB-1AFF25B10771} = {2EB9A0B3-9086-4A34-87AB-1AFF25B10771}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
