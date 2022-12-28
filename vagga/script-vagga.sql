@@ -1,0 +1,85 @@
+-- ==================================== CRIAÇÃO DE TABELAS
+
+create table VACANCY (
+	ID uuid PRIMARY KEY,
+	URLIMAGES VARCHAR(500),
+	NAME VARCHAR(50),
+	SERVICETYPE VARCHAR(20),
+	DESCRIPTION VARCHAR(500),
+	DIMENSIONX DECIMAL,
+	DIMENSIONY DECIMAL,
+	DIMENSIONZ DECIMAL,
+	PRICE DECIMAL,
+	ACTIVE BOOLEAN
+);
+
+
+create table VEHICLE (
+	ID uuid PRIMARY KEY,
+	URLIMAGES VARCHAR(500),
+	BRAND VARCHAR(50),
+	MODEL VARCHAR(50),
+	DOORS REAL,
+	NAME VARCHAR(50),
+	AGE REAL,
+	COLOR VARCHAR(30),
+	PLATE VARCHAR(10),
+	ACTIVE BOOLEAN
+);
+
+
+create table USERS (
+	ID uuid PRIMARY KEY,
+	FIRSTNAME VARCHAR(50),
+	LASTNAME VARCHAR(50),
+	EMAIL VARCHAR(100),
+	PASSWORD VARCHAR(100),
+	ACTIVE BOOLEAN
+);
+
+
+create table USER_VACANCY (
+	ID uuid PRIMARY KEY,
+	UserID uuid,
+	CONSTRAINT fk_Users FOREIGN KEY(UserID) REFERENCES USERS(ID)
+);
+
+
+create table USER_VEHICLE (
+	ID uuid PRIMARY KEY,
+	UserID uuid,
+	CONSTRAINT fk_Users FOREIGN KEY(UserID) REFERENCES USERS(ID)
+);
+
+
+create table SERVICE (
+	ID uuid PRIMARY KEY,
+	UserVehicle uuid, 
+	UserVacancy uuid,
+	CONSTRAINT fk_UserVacancy FOREIGN KEY(UserVacancy) REFERENCES USER_VACANCY(ID),
+	CONSTRAINT fk_UserVehicle FOREIGN KEY(UserVehicle) REFERENCES USER_VEHICLE(ID)
+);
+
+
+-- ==================================== DELEÇÃO DE TABELAS
+
+DROP TABLE VEHICLE
+DROP TABLE VACANCY
+DROP TABLE users
+
+
+-- ==================================== INSERÇÃO DE DADOS
+
+
+INSERT INTO USERS (ID, FIRSTNAME, LASTNAME, EMAIL, PASSWORD, ACTIVE)
+VALUES('112C8DD8-346B-426E-B06C-75BBA97DCD63', 'Gabriel', 'de Oliveira', 'gabriel-ao@hotmail.com', 'gabigol10', true)
+
+
+
+-- ==================================== CRIAÇÃO DE FUNÇÕES
+
+
+
+-- ==================================== SELECT GERAL DE TABELAS
+
+select * from users
