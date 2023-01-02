@@ -18,5 +18,8 @@ namespace vagga.Controllers
             return Ok("Api funcionando");
         }
 
+        //TODO - criar usuario
+        //TODO - alterar senha
+
     }
 }

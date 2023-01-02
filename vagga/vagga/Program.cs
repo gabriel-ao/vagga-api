@@ -1,3 +1,8 @@
+using Vagga.Domain.Interfaces.Repositories;
+using Vagga.Domain.Interfaces.Services;
+using Vagga.Infrastructure.Repositories;
+using Vagga.Infrastructure.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,8 +14,9 @@ builder.Services.AddSwaggerGen();
 
 
 #region Dependency Injection
-//builder.Services.AddTransient<>
-//builder.Services.AddScoped
+builder.Services.AddTransient<IDapperConnectionFactory, DapperConnectionFactory>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 #endregion
 
 var app = builder.Build();

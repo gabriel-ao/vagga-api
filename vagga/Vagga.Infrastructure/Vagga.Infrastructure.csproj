@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Npgsql" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\vagga.Domain\Vagga.Domain.csproj" />
   </ItemGroup>
 
 </Project>

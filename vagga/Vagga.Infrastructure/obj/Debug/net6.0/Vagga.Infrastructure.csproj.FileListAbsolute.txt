@@ -13,3 +13,13 @@ R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\obj\Debug\net6.0\refin
 R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\obj\Debug\net6.0\Vagga.Infrastructure.pdb
 R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\obj\Debug\net6.0\Vagga.Infrastructure.genruntimeconfig.cache
 R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\obj\Debug\net6.0\ref\Vagga.Infrastructure.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Vagga.Domain.deps.json
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Vagga.Domain.runtimeconfig.json
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Vagga.Domain.exe
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Dapper.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Newtonsoft.Json.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Npgsql.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Vagga.Domain.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\bin\Debug\net6.0\Vagga.Domain.pdb
+R:\documentos\github\vagga-api\vagga\Vagga.Infrastructure\obj\Debug\net6.0\Vagga.Infrastructure.csproj.CopyComplete
