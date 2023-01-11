@@ -17,8 +17,8 @@ namespace vagga.Controllers
             _service = service;
         }
 
-        [HttpPost("Auth")]
-        public IActionResult Auth(LoginInput login)
+        [HttpPost("Authentication")]
+        public IActionResult Authentication(LoginInput login)
         {
             //TODO - PASSAR EMAIL E SENHA PELO HEADERS
 
@@ -31,6 +31,13 @@ namespace vagga.Controllers
             var result = _service.Auth(email, password);
 
             return Ok(result);
+        }
+
+        [HttpPost("ForgetPassword")]
+        public IActionResult ForgetPassword()
+        {
+            var language = Request.Headers["Accept-Language"];
+            return Ok("ForgetPassword nao implementado");
         }
     }
 }

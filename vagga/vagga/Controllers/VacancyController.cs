@@ -18,5 +18,17 @@ namespace vagga.Controllers
             return Ok("Api funcionando");
         }
 
+        [HttpGet("GetVacancyById")]
+        public IActionResult GetVacancyById()
+        {
+            return Ok("GetVacancyById nao implementado");
+        }
+
+        [HttpGet("GetVacancyByUserId")]
+        public IActionResult GetVacancyByUserId()
+        {
+            return Ok("GetVacancyByUserId nao implementado");
+        }
+
     }
 }

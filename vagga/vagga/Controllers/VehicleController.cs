@@ -18,5 +18,24 @@ namespace vagga.Controllers
             return Ok("Api funcionando");
         }
 
+
+        [HttpGet("GetVehicleByBrand")]
+        public IActionResult GetVehicleByBrand()
+        {
+            return Ok("GetVehicleByBrand nao implementado");
+        }
+
+        [HttpGet("GetVehicleById")]
+        public IActionResult GetVehicleById()
+        {
+            return Ok("GetVehicleById nao implementado");
+        }
+
+        [HttpGet("GetVehicleByUserId")]
+        public IActionResult GetVehicleByUserId()
+        {
+            return Ok("GetVehicleByUserId nao implementado");
+        }
+
     }
 }

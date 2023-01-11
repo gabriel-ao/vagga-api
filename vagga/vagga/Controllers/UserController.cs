@@ -19,7 +19,21 @@ namespace vagga.Controllers
         }
 
         //TODO - criar usuario
+        [HttpPost("CreateUser")]
+        public IActionResult CreateUser()
+        {
+            var language = Request.Headers["Accept-Language"];
+            return Ok("CreateUser nao implementado");
+        }
+
         //TODO - alterar senha
+        [HttpPost("ResetPassword")]
+        public IActionResult ResetPassword()
+        {
+            var language = Request.Headers["Accept-Language"];
+            return Ok("ResetPassword nao implementado");
+        }
+
 
     }
 }
