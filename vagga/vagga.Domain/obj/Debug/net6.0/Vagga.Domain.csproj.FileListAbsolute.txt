@@ -1,11 +1,11 @@
-R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.deps.json
-R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.dll
-R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.pdb
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.csproj.AssemblyReference.cache
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.GeneratedMSBuildEditorConfig.editorconfig
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.AssemblyInfoInputs.cache
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.AssemblyInfo.cs
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.csproj.CoreCompileInputs.cache
+R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.deps.json
+R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.dll
+R:\documentos\github\vagga-api\vagga\Vagga.Domain\bin\Debug\net6.0\Vagga.Domain.pdb
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.dll
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\refint\Vagga.Domain.dll
 R:\documentos\github\vagga-api\vagga\Vagga.Domain\obj\Debug\net6.0\Vagga.Domain.pdb

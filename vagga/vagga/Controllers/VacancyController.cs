@@ -21,13 +21,13 @@ namespace vagga.Controllers
         }
 
         [HttpGet("GetVacancyById")]
-        public ActionResult GetVacancyById()
+        public ActionResult<GetVagancyByIdOutput> GetVacancyById(Guid vacancyId)
         {
             return Ok("GetVacancyById nao implementado");
         }
 
         [HttpGet("GetVacancyByUserId")]
-        public ActionResult GetVacancyByUserId()
+        public ActionResult<GetVagancyByUserIdOutput> GetVacancyByUserId(Guid userId)
         {
             return Ok("GetVacancyByUserId nao implementado");
         }

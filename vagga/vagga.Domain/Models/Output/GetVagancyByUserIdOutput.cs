@@ -1,9 +1,11 @@
-﻿namespace Vagga.Domain.Models.Input
+﻿using Vagga.Domain.Models.Base;
+
+namespace Vagga.Domain.Models.Output
 {
-    public class SaveVacancyInput
+    public class GetVagancyByUserIdOutput : BaseOutput
     {
         public Guid? Id { get; set; }
-        public List<UrlVacancyInput> UrlImages { get; set; }
+        public List<UrlVagancyByUserId> UrlImages { get; set; }
         public string Name { get; set; }
         public string ServiceType { get; set; }
         public string Description { get; set; }
@@ -14,8 +16,7 @@
         public bool Pending { get; set; }
     }
 
- 
-    public class UrlVacancyInput
+    public class UrlVagancyByUserId
     {
         public string? UrlMedia { get; set; }
     }

@@ -1,3 +1,9 @@
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.csproj.AssemblyReference.cache
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.GeneratedMSBuildEditorConfig.editorconfig
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.AssemblyInfoInputs.cache
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.AssemblyInfo.cs
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.csproj.CoreCompileInputs.cache
+R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.MvcApplicationPartsAssemblyInfo.cache
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\appsettings.Development.json
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\appsettings.json
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.API.exe
@@ -15,13 +21,6 @@ R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.dll
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Infrastructure.dll
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Domain.pdb
 R:\documentos\github\vagga-api\vagga\vagga\bin\Debug\net6.0\Vagga.Infrastructure.pdb
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.csproj.AssemblyReference.cache
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.GeneratedMSBuildEditorConfig.editorconfig
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.AssemblyInfoInputs.cache
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.AssemblyInfo.cs
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.csproj.CoreCompileInputs.cache
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.MvcApplicationPartsAssemblyInfo.cs
-R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\Vagga.API.MvcApplicationPartsAssemblyInfo.cache
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\staticwebassets\msbuild.Vagga.API.Microsoft.AspNetCore.StaticWebAssets.props
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\staticwebassets\msbuild.build.Vagga.API.props
 R:\documentos\github\vagga-api\vagga\vagga\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Vagga.API.props
