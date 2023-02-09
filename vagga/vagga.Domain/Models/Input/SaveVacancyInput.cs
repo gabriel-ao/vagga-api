@@ -11,6 +11,7 @@
         public string DimensionY { get; set; }
         public string DimensionZ { get; set; }
         public double price { get; set; }
+        public bool Pending { get; set; }
     }
 
  

@@ -69,14 +69,6 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.2": {
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.2.27524"
-          }
-        }
-      },
       "Npgsql/7.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
@@ -139,7 +131,6 @@
       "Vagga.Infrastructure/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.123",
-          "Newtonsoft.Json": "13.0.2",
           "Npgsql": "7.0.1",
           "Vagga.Domain": "1.0.0"
         },
@@ -224,13 +215,6 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
-    },
-    "Newtonsoft.Json/13.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
-      "path": "newtonsoft.json/13.0.2",
-      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
     },
     "Npgsql/7.0.1": {
       "type": "package",

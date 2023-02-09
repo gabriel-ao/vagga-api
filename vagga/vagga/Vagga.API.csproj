@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\vagga.Domain\Vagga.Domain.csproj" />
+    <ProjectReference Include="..\Vagga.Domain\Vagga.Domain.csproj" />
     <ProjectReference Include="..\Vagga.Infrastructure\Vagga.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a4iDoDgqJfVTItR+w5ERwP2e1zv2hbKKoWeTf3cv2hdOFx/yaNkVav7C8JPmr2f8BBAucksaYbUs4xNu+iu/Cw==",
+  "dgSpecHash": "aj2l6/dClFgvz/yPE3zwyVHXChDwmVt8rk1te1/ZR0kfdMVq37a5/infGsM6TRZ4VgmOtEG/WDPMp89Hlq601w==",
   "success": true,
-  "projectFilePath": "R:\\documentos\\github\\vagga-api\\vagga\\vagga.Domain\\Vagga.Domain.csproj",
+  "projectFilePath": "R:\\documentos\\github\\vagga-api\\vagga\\Vagga.Domain\\Vagga.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
