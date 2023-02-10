@@ -13,14 +13,7 @@ namespace vagga.Controllers
     {
 
         //[Authorize(Roles = "User")]  - TODO: implementar autorization
-        [HttpGet("GetExampleController")]
-        public ActionResult GetExampleController()
-        {
-            var language = Request.Headers["Accept-Language"];
-            return Ok("Api funcionando");
-        }
-
-        [HttpGet("GetVacancyById")]
+         [HttpGet("GetVacancyById")]
         public ActionResult<GetVagancyByIdOutput> GetVacancyById(Guid vacancyId)
         {
             return Ok("GetVacancyById nao implementado");
