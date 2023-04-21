@@ -202,3 +202,118 @@ inner join users as U
 on UV.userid = U.id
 
 where UV.userid = '112c8dd8-346b-426e-b06c-75bba97dcd63';
+
+
+
+
+
+-- PIVOTE
+
+
+create table users (
+	"ID" uuid PRIMARY KEY,
+	"Firstname" VARCHAR(50),
+	"Lastname" VARCHAR(50),
+	"Phone" VARCHAR(20),
+	"Email" VARCHAR(100),
+	"Password" VARCHAR(100),
+	"Active" BOOLEAN,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp
+);
+
+create table business (
+	"ID" uuid PRIMARY KEY,
+	"BusinessName" VARCHAR(50),
+	"Address"  VARCHAR(100),
+	"AddressNumber" VARCHAR(10),
+	"City" VARCHAR(100),
+	"UF" CHAR(2);
+	"Neighborhood" VARCHAR(50),
+	"Complement" VARCHAR(100),
+	"ZipCode" VARCHAR(11),
+	"Active" BOOLEAN,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp
+);
+
+
+create table access_profile (
+	"ID" uuid PRIMARY KEY,
+	"ScreenName" VARCHAR(50),
+	"Active" BOOLEAN,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp
+);
+
+
+
+create table favorites (
+	"ID" uuid PRIMARY KEY,
+	"BusinessID" uuid,
+	"UserID" uuid,
+	"Active" BOOLEAN,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp,
+	CONSTRAINT fk_Users FOREIGN KEY("UserID") REFERENCES USERS("ID")
+	CONSTRAINT fk_Users FOREIGN KEY("BusinessID") REFERENCES USERS("ID")
+);
+
+create table business_details (
+	"ID" uuid PRIMARY KEY,
+	"BusinessID" uuid,
+	"Day"  timestamp,
+	"IsOpen" BOOLEAN,
+	"StartTime" timestamp,
+	"FinishTime" timestamp,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp
+);
+
+
+create table roles (
+	"ID" uuid PRIMARY KEY,
+	"Read" BOOLEAN,
+	"Write" BOOLEAN,
+	"Update" BOOLEAN,
+	"Delete" BOOLEAN,
+	"ActiveToBusiness" BOOLEAN,
+	"AccessProfileID" uuid,
+	"AccessProfileName" VARCHAR(100),
+	"BusinessID" uuid,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp,
+	CONSTRAINT fk_Business FOREIGN KEY("BusinessID") REFERENCES business("ID"),
+	CONSTRAINT fk_Access_Profile FOREIGN KEY("AccessProfileID") REFERENCES access_profile("ID")
+);
+
+
+create table team (
+	"ID" uuid PRIMARY KEY,
+	"UserID" uuid,
+	"RoleID" uuid,
+	"IsOwner" BOOLEAN,
+	"Active" BOOLEAN,
+	"CreateDate" timestamp,
+	"UpdateDate" timestamp,
+	CONSTRAINT fk_Roles FOREIGN KEY("RoleID") REFERENCES roles("ID"),
+	CONSTRAINT fk_Users FOREIGN KEY("UserID") REFERENCES USERS("ID")
+);
+
+
+-- ==================================== SELECT GERAL DE TABELAS
+
+select * from users;
+
+select * from business;
+
+select * from access_profile;
+
+select * from favorites;
+
+select * from roles;
+
+
+INSERT INTO USERS ("ID", "Firstname", "Lastname", "Phone", "Email", "Password", "Active", "CreateDate")
+VALUES('112C8DD8-346B-426E-B06C-75BBA97DCD63', 'Gabriel', 'de Oliveira', '+5519996787668', 'gabriel-ao@hotmail.com', 'gabigol10', true, NOW()),
+
